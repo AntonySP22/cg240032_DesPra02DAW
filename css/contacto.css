@@ -1,0 +1,32 @@
+.form-container {
+    background-color: #f8f9fa;
+    /* Color de fondo del formulario */
+    padding: 20px;
+    /* Espaciado interno */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sombra para destacar el formulario */
+    margin: auto;
+    width: 450px;
+    /* Ancho del formulario */
+}
+
+.form-label {
+    font-weight: bold;
+    /* Etiquetas en negrita */
+}
+
+.form-control {
+    margin-bottom: 15px;
+    /* Espaciado entre campos */
+}
+
+.btn-primary {
+    width: 100%;
+    /* Botón de enviar ocupa todo el ancho */
+}
+
+.footer {
+    margin-top: 84px;
+}

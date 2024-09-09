@@ -1,0 +1,38 @@
+.movable-window {
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    border: 1px solid #000;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden; /* Asegura que el contenido no se salga de la ventana */
+}
+
+.window-header {
+    padding: 10px;
+    background-color: #f1f1f1;
+    cursor: move;
+    z-index: 10;
+}
+
+.window-content {
+    padding: 10px;
+    height: calc(100% - 40px); /* Ajusta la altura para que la imagen no se salga */
+    overflow-y: auto; /* Permite el desplazamiento si el contenido es demasiado grande */
+}
+
+.window-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer {
+    margin-top: 850px;
+}
+
+.window-header {
+    background-color: #1976d2;
+    color: white;
+}
